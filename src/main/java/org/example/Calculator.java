@@ -29,7 +29,7 @@ public class Calculator {
         } else if (sign == '%') {
             result = a % b;
         } else {
-            System.out.println("Вы используете неверный знак, используйте другой математический знак");
+            System.out.println("Вы используете неверный знак, используйте другой математический знак!");
             return;
         }
         System.out.println(a + " " + sign + " " + b + " = " + result);
